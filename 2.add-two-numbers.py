@@ -1,4 +1,4 @@
-```python
+
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, val=0, next=None):
@@ -63,4 +63,3 @@ class Solution(object):
 
 def sumAndDecrement(val, totals, exponent, index):
     totals[index] = totals[index] + (val * (10**exponent))
-```
